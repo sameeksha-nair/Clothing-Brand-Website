@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+.header{
+    background-color: white;
+    color: white;
+    margin: -10px;
+    padding-bottom: 100px;
+    box-shadow: 0px 1px 100px rgb(107, 107, 107);
+}
+
+.header h1{
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    transform: translateX(-50%);
+    font-size: 60px;
+    font-family: 'Zen Dots', cursive;
+}
+
+.header span{
+    display: inline;
+    position: absolute;
+    top: 6%;
+    font-size: 20px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+.submenu span{
+    position: absolute;
+    display: inline;
+    top: 6%;
+    left: 94%;
+}
+
+.menu{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.menu span{
+    display: inline;
+    position: relative;
+    padding-left: 240px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.menu a{
+    text-decoration:none;
+    color: black;
+}
+
+.menu a:hover{
+    color: brown;
+    text-shadow: 10px 5px 10px black;
+}
+.slide{
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.arrows{
+    display: inline;
+}
+
+.slide img{
+    width: 90%;
+}
+
+.slidein {
+    animation-name: slidein;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes slidein {
+    from{margin-left: 100px;}
+    to {margin-left: 0px;}
+  }
+
+h2{
+    margin-top: 30px;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bestseller span{
+    display: inline-block;
+    margin-left: 72px;
+    margin-top: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.bestseller img{
+    width: 400px;
+
+}
+
+.bestseller span:hover{
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+button{
+    background-color: beige;
+    border: 0px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#socials{
+    margin-left: 575px;
+    margin-top: 20px;
+}
